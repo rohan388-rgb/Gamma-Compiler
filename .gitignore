@@ -1,0 +1,42 @@
+# CMake build directories
+cmake-build-*/
+build/
+
+# Compiled files
+*.o
+*.obj
+*.exe
+out
+
+# Generated compiler output
+out.asm
+compile_metadata.json
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Node.js
+node_modules/
+dist/
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# IDE files
+.idea/
+
+# Archives and backups
+*.zip
+*.zip.*
+
+# Logs
+*.log
+
+# Temporary backend files
+backend/temp/*
+backend/outputs/*
